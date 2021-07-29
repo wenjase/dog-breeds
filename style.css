@@ -1,0 +1,21 @@
+#box {
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35%;
+}
+
+
+
+#dogImage {
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35%;
+}
