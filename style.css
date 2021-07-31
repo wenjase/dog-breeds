@@ -1,21 +1,41 @@
-#box {
-    height: 200px;
+/* #box { */
+    /* height: 200px;
     width: 400px;
     background-color: red;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 35%;
-}
+} */
 
 
 
 #dogImage {
-    height: 200px;
-    width: 400px;
-    background-color: red;
+    height: auto;
+    max-width: 100%;
+    /* background-color: red; */
     display: flex;
     justify-content: center;
-    margin: auto;
-    margin-top: 35%;
 }
+
+
+
+img {
+    display: none;
+}
+
+#enter {
+    margin: auto;
+    height: 30px;
+    position: relative;
+    margin-top: 150%;
+    right: 300px;
+}
+
+#leftButton {
+    position: absolute;
+    left: 300px;
+    display: inline-block;
+}
+
+
