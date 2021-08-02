@@ -25,23 +25,42 @@ let img = document.querySelectorAll("#dogImage");
 let images = document.querySelectorAll('img')
 let rButton = document.querySelector('.rightButton')
 let lButton = document.querySelector('.leftButton')
+let search = document.querySelector('#search')
+let enter = document.querySelector('#enter')
 
 // function to display and not display my animals
 function dogImages() {
     images[0].style.display = 'block'
-    if (images[0] !== images[0]) {
-        images[0].style.display = 'none'
-    }
+
 }
 
 dogImages();
 
-// getting my left button to work so i can go to the next dog.
-function button() {
-    if ()
-}
+// how to make images flip over.
 
-lButton.addEventListener('click', lButton)
+
+
+
+
+
+
+
+
+
+
+
+// getting my left button to work so i can go to the next dog.
+// function button() {
+//     if ()
+// }
+
+lButton.addEventListener('click', button)
+
+
+
+
+
+
 
 
 

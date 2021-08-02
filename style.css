@@ -24,13 +24,13 @@ img {
     display: none;
 }
 
-#enter {
+/* #enter {
     margin: auto;
     height: 30px;
     position: relative;
     margin-top: 150%;
     right: 300px;
-}
+} */
 
 #leftButton {
     position: absolute;
