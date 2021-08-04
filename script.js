@@ -66,16 +66,28 @@ function nextDog() {
     num++
     console.log(num)
     loadImg(num)
-    }
+}
 
 
 
 rButton.addEventListener('click', nextDog)
 
 
-
+let num1 = 0
 // modal work here.
 
+let open = document.querySelector('#open')
+let modal = document.querySelector('.modal')
+
+let openModal = () => {
+   console.log('click')
+    modal.classList.add('modal-active')
+    console.log(open.classList)
+}
+
+
+
+open.addEventListener('click', openModal)
 
 
 
