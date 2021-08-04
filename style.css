@@ -36,10 +36,22 @@ img {
     position: absolute;
     left: 300px;
     display: inline-block;
+    cursor: pointer;
 }
 
-#rightbutton {
+#rightButton {
     position: absolute;
     right: 300px;
     display: inline-block;
+    cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
