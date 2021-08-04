@@ -4,7 +4,19 @@
 
 <!-- what I'm doing is making a flash card game with dog breeds and having modals as pop ups for answers. this will require DOM in JavaScript, HTML, and CSS -->
 
-<!--  -->
+<!-- https://wenjase.github.io/dog-breeds/ -->
+
+<!-- I solved most of my problems with the help of others. -->
+
+<!-- thank you to those that helped!!!
+Troi Vergara,
+Kimberly Bree,
+Jeremy Taubman,
+Zavier Lowe,
+William Sutton,
+Bunny Schaefer,
+Mohamud Qasim,
+FOR ANYONE I MISSED TY! -->
 
 
 
