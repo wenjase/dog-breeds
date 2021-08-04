@@ -1,19 +1,14 @@
-/* #box { */
-    /* height: 200px;
-    width: 400px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 35%;
-} */
 
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+}
 
 
 #dogImage {
     height: auto;
     max-width: 100%;
-    /* background-color: red;  */
     display: flex;
     justify-content: center;
 }
@@ -27,13 +22,7 @@ img {
     
 }
 
-/* #enter {
-    margin: auto;
-    height: 30px;
-    position: relative;
-    margin-top: 150%;
-    right: 300px;
-} */
+
 
 #leftButton {
     position: absolute;
@@ -48,6 +37,13 @@ img {
     display: inline-block;
     cursor: pointer;
 }
+.close {
+    font-size: 10px;
+    position: relative;
+    left: 346px;
+    bottom: 85px;
+    cursor: pointer;
+}
 
 .modal {
     position: fixed;
@@ -56,17 +52,12 @@ img {
     top: 0;
     left: 0;
     background-color: rgba(0,0,0,0.5);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
-    visibility: hidden;
-    opacity: 0;
     transition: visibility 0s, opacity 0.5s;
 }
-.modal-active{
-    visibility: visible;
-    opacity: 1;
-}
+
 #modal-container {
     background-color: white;
     width: 30%;
@@ -76,7 +67,17 @@ img {
     align-items: center;
     flex-direction: column;
 }
-
+.paraText {
+    font-size: 40px;
+}
+#open {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
 
 
 

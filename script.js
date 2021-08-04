@@ -50,7 +50,7 @@ let rButton = document.querySelector('.rightButton')
 let lButton = document.querySelector('.leftButton')
 let search = document.querySelector('#search')
 let enter = document.querySelector('#enter')
-
+let paraText = document.querySelector('p')
 
 
 let num = 0
@@ -58,14 +58,20 @@ function loadImg() {
     images[num].style.display = 'block'          // displaying border collie.
 }
 
-loadImg()
-
+loadImg();
+correctAnswer();
 // my loop for how i made my next dog button work.
 function nextDog() {
     console.log(num)
+    unloadDog();
     num++
     console.log(num)
     loadImg(num)
+    correctAnswer()
+}
+
+function unloadDog() {
+    images[num].style.display = 'none' 
 }
 
 
@@ -73,21 +79,36 @@ function nextDog() {
 rButton.addEventListener('click', nextDog)
 
 
-let num1 = 0
+
 // modal work here.
 
 let open = document.querySelector('#open')
 let modal = document.querySelector('.modal')
+let close = document.querySelector('.close')
+let modalContainer = document.querySelector('#modal-container')
 
+
+
+
+
+// open and closes modal
 let openModal = () => {
-   console.log('click')
-    modal.classList.add('modal-active')
-    console.log(open.classList)
+    modal.style.display = 'flex'
+}
+
+let closeModal = () => {
+   modal.style.display = 'none'
+}
+
+// shows answers in order.
+function correctAnswer() {
+    paraText.innerHTML = breeds[num]
 }
 
 
-
 open.addEventListener('click', openModal)
+close.addEventListener('click', closeModal)
+
 
 
 
