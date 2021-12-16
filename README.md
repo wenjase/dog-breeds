@@ -37,3 +37,5 @@ FOR ANYONE I MISSED TY! -->
 <!-- got modal working, not i need to make it match my array! -->
 
 <!-- got all my bugs fixed -->
+
+

@@ -53,6 +53,7 @@ let enter = document.querySelector('#enter')
 let paraText = document.querySelector('p')
 
 
+
 let num = 0
 function loadImg() {
     images[num].style.display = 'block'          // displaying border collie.
@@ -60,12 +61,18 @@ function loadImg() {
 
 loadImg();
 correctAnswer();
+
+
+// function animation() {
+//     let = setInterval(nextDog, 5000)
+// }
+// console.log(animation)
 // my loop for how i made my next dog button work.
 function nextDog() {
-    console.log(num)
+    // console.log(num)
     unloadDog();
     num++
-    console.log(num)
+    // console.log(num)
     loadImg(num)
     correctAnswer()
 }
@@ -77,6 +84,13 @@ function unloadDog() {
 
 
 rButton.addEventListener('click', nextDog)
+
+
+
+
+
+
+
 
 
 
